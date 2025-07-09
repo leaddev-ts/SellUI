@@ -1,0 +1,32 @@
+name: SellUI
+main: Lead\SellUI\SellUI
+version: Premium
+api: 5.0.0
+author: Lead1807
+description: Plugin untuk menjual item secara manual maupun otomatis
+
+commands:
+  sell:
+    description: Buka menu jual atau [hand|all|inv|autosell|log]
+    usage: /sell [hand|all|inv|autosell|log]
+    permission: sellui.command.sell
+
+permissions:
+  sellui.command.sell:
+    description: Izin untuk menggunakan /sell dan membuka menu
+    default: true
+  sellui.command.hand:
+    description: Izin untuk menjual item di tangan (/sell hand)
+    default: true
+  sellui.command.all:
+    description: Izin untuk menjual semua item yang bisa dijual (/sell all)
+    default: true
+  sellui.command.inv:
+    description: Izin untuk menjual isi inventory (/sell inv)
+    default: true
+  sellui.command.autosell:
+    description: Izin untuk mengaktifkan/mematikan auto-sell (/sell autosell)
+    default: true
+  sellui.command.log:
+    description: Izin untuk melihat log penjualan (/sell log)
+    default: true
