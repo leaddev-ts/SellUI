@@ -1,6 +1,6 @@
 name: SellUI
 main: Lead\SellUI\SellUI
-version: Premium
+version: 1.0.0
 api: 5.0.0
 author: Lead1807
 description: Plugin untuk menjual item secara manual maupun otomatis
